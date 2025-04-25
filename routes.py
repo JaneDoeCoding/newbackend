@@ -266,3 +266,7 @@ def delete_product(id):
 
     products = [p for p in products if p['id'] != id]
     return jsonify({'message': 'Deleted successfully'}), 200
+
+@routes.route('/')
+def index():
+    return 'Backend is running!'
