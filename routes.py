@@ -6,9 +6,9 @@ routes = Blueprint('routes', __name__)
 products = [
     {
         'id': 1,
-        'name': 'Fish Fillet',
+        'name': 'Cod Fish Fillet',
         'category': 'Fish',
-        'description': 'Fresh fish fillet',
+        'description': 'High protein, low fat',
         'protein': '20.5 g',  # 添加单位
         'fat': '3.2 g',       # 添加单位
         'calories': '120 kcal' # 添加单位
@@ -24,36 +24,36 @@ products = [
     },
     {
         'id': 3,
-        'name': 'Tuna Can',
+        'name': 'Alaska Cod Fish Balls',
         'category': 'Seafood',
-        'description': 'Canned tuna chunks in water',
+        'description': 'High-quality protein with a springy and pleasant texture',
         'protein': '23.5 g',  # 添加单位
         'fat': '1.0 g',       # 添加单位
         'calories': '98 kcal' # 添加单位
     },
     {
         'id': 4,
-        'name': 'Cod Fish Fillet',
+        'name': 'Tuna Can',
         'category': 'Fish',
-        'description': 'Lean and mild-flavored fish',
+        'description': 'Rich in B vitamins and Omega-3 fatty acids, easy to store',
         'protein': '18.0 g',  # 添加单位
         'fat': '1.5 g',       # 添加单位
         'calories': '85 kcal' # 添加单位
     },
     {
         'id': 5,
-        'name': 'Mackerel',
+        'name': 'Pollock Roe',
         'category': 'Fish',
-        'description': 'Fatty fish rich in Omega-3',
+        'description': 'High in protein and cholesterol, rich in Omega-3 fatty acids and phospholipids',
         'protein': '22.0 g',  # 添加单位
         'fat': '17.0 g',      # 添加单位
         'calories': '205 kcal' # 添加单位
     },
     {
         'id': 6,
-        'name': 'Shrimp',
+        'name': 'Fish Maw',
         'category': 'Seafood',
-        'description': 'Low-calorie, high-protein seafood',
+        'description': 'High in collagen protein',
         'protein': '24.0 g',  # 添加单位
         'fat': '0.5 g',       # 添加单位
         'calories': '99 kcal' # 添加单位
